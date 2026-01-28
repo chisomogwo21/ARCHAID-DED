@@ -24,7 +24,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="index.html" aria-current="page">Home</a>
         <a href="projects.html">Projects</a>
-        <a href="About.html">About</a>
+        <a href="about.html">About</a>
         <a href="philosophy.html">Philosophy</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -44,7 +44,7 @@
   <div class="mobile__inner" aria-label="Mobile navigation">
     <a href="index.html" data-nav-link>Home</a>
     <a href="projects.html" data-nav-link>Projects</a>
-    <a href="About.html" data-nav-link>About</a>
+    <a href="about.html" data-nav-link>About</a>
     <a href="philosophy.html" data-nav-link>Philosophy</a>
     <a href="contact.html" data-nav-link>Contact</a>
     <a class="btn" href="contact.html#inquire" data-nav-link>Inquire Now</a>
@@ -165,7 +165,7 @@
           </div>
 
           <div style="margin-top:28px;">
-            <a class="btn btn--link" href="About.html">Read More</a>
+            <a class="btn btn--link" href="about.html">Read More</a>
           </div>
         </div>
       </div>
@@ -204,10 +204,27 @@
 
       <div>
         <h4 class="mono" style="margin:0 0 18px;">Newsletter</h4>
-        <form class="formrow" action="#" method="post" onsubmit="return false;" aria-label="Newsletter signup">
-          <input class="input" type="email" placeholder="Email Address" aria-label="Email address" />
-          <button class="btn" type="submit">Join</button>
-        </form>
+              <form 
+  class="formrow"
+  action="https://formspree.io/f/xbdoblwp" 
+  method="POST"
+  aria-label="Newsletter signup"
+>
+  <input 
+    class="input" 
+    type="email" 
+    name="email"
+    placeholder="Email Address" 
+    aria-label="Email address"
+    required
+  >
+
+  
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button class="btn" type="submit">Join</button>
+</form>
+<p id="newsletterMsg" class="form-message" style="margin-top:10px;"></p>
         <p class="small" style="margin-top:12px;">Quarterly notes. No noise.</p>
       </div>
     </div>
