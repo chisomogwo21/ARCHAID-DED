@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Philosophy | ARCHAID-DED</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="container">
+    <div class="nav__row">
+      <a class="brand" href="index.html" aria-label="ARCHAID-DED Home">
+        <span class="brand__name">ARCHAID-DED</span>
+        <span class="brand__sub">Studio &amp; Vision</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="studio.html">The Studio</a>
+        <a href="Philosophy.html" aria-current="page">Philosophy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn" href="contact.html#inquire">Inquire</a>
+        <button class="burger" type="button" data-nav-open aria-label="Open menu">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="mobile" aria-hidden="true">
+  <button class="mobile__close" type="button" data-nav-close aria-label="Close menu"></button>
+  <div class="mobile__inner" aria-label="Mobile navigation">
+    <a href="index.html" data-nav-link>Home</a>
+    <a href="projects.html" data-nav-link>Projects</a>
+    <a href="studio.html" data-nav-link>The Studio</a>
+    <a href="Philosophy.html" data-nav-link>Philosophy</a>
+    <a href="contact.html" data-nav-link>Contact</a>
+    <a class="btn" href="contact.html#inquire" data-nav-link>Inquire Now</a>
+  </div>
+</div>
+
+<main id="main">
+  <section class="section section--tight">
+    <div class="container">
+      <span class="mono" style="display:block; margin-bottom:14px;">Principles</span>
+      <h1 class="h2" style="margin:0 0 14px;">Philosophy</h1>
+      <p class="lead" style="max-width:820px; margin:0;">
+        Our work is built on restraint: fewer decisions, better executed. We use proportion, shadow, and tactile materials to
+        produce spaces that feel inevitable—calm, durable, and specific to their place.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="container">
+      
+<div class="cards">
+  <div class="panel">
+    <span class="mono">01</span>
+    <h3 class="h3" style="margin-top:12px;">Light</h3>
+    <p class="lead" style="margin:0;">
+      Light is the first material. Openings are composed as instruments—measured, placed, and protected—so time becomes visible.
+    </p>
+  </div>
+
+  <div class="panel">
+    <span class="mono">02</span>
+    <h3 class="h3" style="margin-top:12px;">Material</h3>
+    <p class="lead" style="margin:0;">
+      Concrete, timber, stone, and metal are chosen for how they age. Surfaces are honest. Joints are legible.
+    </p>
+  </div>
+
+  <div class="panel">
+    <span class="mono">03</span>
+    <h3 class="h3" style="margin-top:12px;">Silence</h3>
+    <p class="lead" style="margin:0;">
+      Minimalism is not emptiness. It is the removal of distraction until the structure—and the life inside it—reads clearly.
+    </p>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2" style="align-items:start;">
+        <div class="panel">
+          <h3 class="h3">What we avoid</h3>
+          <p class="lead" style="margin:0;">
+            Trend-driven form. Decorative detailing without purpose. Materials that cannot age with dignity. Plans that
+            ignore daily movement.
+          </p>
+        </div>
+        <div class="panel">
+          <h3 class="h3">What we pursue</h3>
+          <p class="lead" style="margin:0;">
+            Clarity of structure. Controlled daylight. Honest assemblies. Calm circulation. A building that stays quiet even
+            when the city is loud.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="brand" style="margin-bottom:18px;">
+          <span class="brand__name" style="text-transform:uppercase;">ARKITECT</span>
+          <span class="brand__sub">Studio</span>
+        </div>
+        <p class="lead" style="max-width:420px;">
+          Registered Practice.<br />
+          
+        </p>
+
+        <div style="display:flex; gap:18px; margin-top:22px; flex-wrap:wrap;">
+          <a class="badge" href="#" aria-label="Instagram">Instagram</a>
+          <a class="badge" href="#">Behance</a>
+          <a class="badge" href="#">LinkedIn</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="mono" style="margin:0 0 18px;">Contact</h4>
+        <p class="small" style="margin:0 0 10px;">studio@archaidded.io</p>
+        <p class="small" style="margin:0 0 10px;">+234 8161974794</p>
+        <p class="small" style="margin:0;">
+          10117 Owerri, Nigeria
+        </p>
+      </div>
+
+      <div>
+        <h4 class="mono" style="margin:0 0 18px;">Newsletter</h4>
+        <form class="formrow" action="#" method="post" onsubmit="return false;" aria-label="Newsletter signup">
+          <input class="input" type="email" placeholder="Email Address" aria-label="Email address" />
+          <button class="btn" type="submit">Join</button>
+        </form>
+        <p class="small" style="margin-top:12px;">Quarterly notes. No noise.</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 ARCHAID-DED STUDIO.</span>
+      <span>Privacy &amp; Imprint</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
