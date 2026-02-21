@@ -7,22 +7,22 @@
   </url>
 
   <url>
-    <loc>https://archaided.com/about</loc>
+    <loc>https://archaided.com/about.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://archaided.com/philosophy</loc>
+    <loc>https://archaided.com/philosophy.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://archaided.com/projects</loc>
+    <loc>https://archaided.com/projects.html</loc>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://archaided.com/contact</loc>
+    <loc>https://archaided.com/contact.html</loc>
     <priority>0.7</priority>
   </url>
 
